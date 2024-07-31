@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("21265409"))
+API_ID = int(getenv("21265409")
 API_HASH = getenv("34c826fd1b989c35e338248d07ad3665")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("7278624463:AAFh3-7nxD2xw_S9lT9-AD0kwVndc-O-BYQ")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://DxLEGEND143:DxLEGEND143@dxlegend.oztipqk.mongodb.net/?retryWrites=true&w=majority&appName=DxLEGEND", None)
+MONGO_DB_URI = getenv("mongodb+srv://DxLEGEND143:DxLEGEND143@dxlegend.oztipqk.mongodb.net/?retryWrites=true&w=majority&appName=DxLEGEND")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 999999))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1002223899421", None))
+LOGGER_ID = int(getenv("-1002223899421")
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("6559330178", 1356469075))
+OWNER_ID = int(getenv("6559330178")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("BQFEfAEARWbIKcZF17k0zqHrF-j6aeac_b4j38S1q5Ij5z91qJQdEWhBYiKnMagg4OVmWbfTdgToj5suMRcf6eZD5G3mqjbixiI9JgWOWl9OECkn_EM9EJZNCG0yAtH1xvZNmbGVCGmee-8OUtV3U7ioodkLtckXG_k4aKmb4hpi7L_txR36JEvEWcUBBEBtb3eZyEIoyOX31046McuFjfFBPRlJRMCSWgMEi8hSVI7Ugl6qNxzRfTZ_ja-0CNyuF4WLJb39Ut-itx-tPAd0vioAzO6Cb4PIwQBU9u0Kt_rrg7OIpvij5htXDI9xzaWBNQQK5_fLa39KhuI6UQGt8qwN-gAAAAGG92-CAA", None)
+STRING1 = getenv("BQFEfAEARWbIKcZF17k0zqHrF-j6aeac_b4j38S1q5Ij5z91qJQdEWhBYiKnMagg4OVmWbfTdgToj5suMRcf6eZD5G3mqjbixiI9JgWOWl9OECkn_EM9EJZNCG0yAtH1xvZNmbGVCGmee-8OUtV3U7ioodkLtckXG_k4aKmb4hpi7L_txR36JEvEWcUBBEBtb3eZyEIoyOX31046McuFjfFBPRlJRMCSWgMEi8hSVI7Ugl6qNxzRfTZ_ja-0CNyuF4WLJb39Ut-itx-tPAd0vioAzO6Cb4PIwQBU9u0Kt_rrg7OIpvij5htXDI9xzaWBNQQK5_fLa39KhuI6UQGt8qwN-gAAAAGG92-CAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
